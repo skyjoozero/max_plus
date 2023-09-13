@@ -19,11 +19,6 @@
 --  their respective licensors.  No other licenses, including any licenses
 --  needed under any third party's intellectual property, are provided herein.
 --
-CHIP week2
-BEGIN
-	DEVICE = AUTO;
-END;
-
 DEFAULT_DEVICES
 BEGIN
 	AUTO_DEVICE = EPM7096QC100-7;
