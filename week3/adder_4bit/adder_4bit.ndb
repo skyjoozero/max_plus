@@ -1,0 +1,151 @@
+NDB006
+The number of symbol table entries is: 3
+The length of the symbol table is: 56
+
+Index Hierarchy Path
+----- --------------
+!	&null_hpath&
+.	|74283:1|p74283:sub|
+C	|74283:14|p74283:sub|
+
+The number of name info structs is : 137
+
+InsOrder BitField SymTableIndex NextSyn SynParent Loc ChainType NextChain ChainParent FanOut DirExp ParExp ShareExp NodeName
+-------- -------- ------------- ------- --------- --- --------- --------- ----------- ------ ------ ------ -------- --------
+"	Ky&|	!	5	2	3	4	5	"D	A0	v
+#	Ky&|	!	4	3	4	5	"D	A1	u
+$	Ky&|	!	3	4	5	"D	A2	t
+%	Ky&|	!	2	5	"D	A3	s
+&	Ky&|	!	6	6	7	8	9	:	j	A4	r
+'	Ky&|	!	5	7	8	9	:	j	A5	q
+(	Ky&|	!	4	8	9	:	j	A6	p
+)	Ky&|	!	3	9	:	j	A7	o
+*	Ky&|	!	5	2	3	4	5	"D	B0	~
++	Ky&|	!	4	3	4	5	"D	B1	}
+,	Ky&|	!	3	4	5	"D	B2	|
+-	Ky&|	!	2	5	"D	B3	{
+.	Ky&|	!	6	6	7	8	9	:	j	B4	z
+/	Ky&|	!	5	7	8	9	:	j	B5	y
+0	Ky&|	!	4	8	9	:	j	B6	x
+1	Ky&|	!	3	9	:	j	B7	w
+2	IGdq	!	sum0	")
+3	XUi[	!	1	1	6	sum1	"(
+4	XUi[	!	1	2	6	5	sum2	"'
+5	SQ)C	!	4	5	6	7	8	sum3	"&
+6	IGdq	!	sum4	"%
+7	XUi[	!	1	2	4	3	sum5	"$
+8	XUi[	!	1	3	3	4	2	sum6	"#
+9	XUi[	!	2	4	2	3	4	1	sum7	""
+:	SQ)C	!	4	1	2	3	4	sum8	"!
+;	IGdW	C	:10	$H
+<	IVOQ	C	n	:133	$D
+=	IVOQ	C	r	:134	$C
+>	IVOQ	C	q	:135	$B
+?	IVOQ	C	p	:136	$A
+@	IVOQ	C	o	:137	$@
+A	IGdW	C	:139	$[
+B	IGdW	C	:141	$?
+C	IGdW	C	:143	$R
+D	IGdW	C	:144	$Q
+E	IGdW	C	:145	$P
+F	IGdW	C	:147	$F
+G	IGdW	C	:148	$7
+H	IGdW	C	:149	$>
+I	IGdW	C	:150	$=
+J	IGdW	C	:151	$<
+K	IGdW	C	:152	$6
+L	IGdW	C	:153	$5
+M	IGdW	C	:154	$;
+N	IGdW	C	:155	$:
+O	IGdW	C	:156	$4
+P	IGdW	C	:157	$3
+Q	IGdW	C	:158	$2
+R	IGdW	C	:159	$9
+S	IGdW	C	:160	$8
+T	IGdW	C	:161	$1
+U	IGdW	C	:18	$]
+V	IGdW	C	:19	$a
+W	IGdW	C	:24	$^
+X	IGdW	C	:25	$b
+Y	IGdW	C	:28	$I
+Z	IGdW	C	:3	$`
+[	IGdW	C	:31	$S
+\	IGdW	C	:32	$J
+]	IGdW	C	:34	$X
+^	IGdW	C	:35	$K
+_	IGdW	C	:36	$L
+`	IGdW	C	:37	$T
+a	IGdW	C	:42	$M
+b	IGdW	C	:46	$U
+c	IGdW	C	:48	$N
+d	IGdW	C	:49	$O
+e	IGdW	C	:5	$\
+f	IGdW	C	:50	$Y
+g	IGdW	C	:53	$_
+h	IGdW	C	:54	$c
+i	IGdW	C	:59	$Z
+j	V$Iu	C	1	:	3	1	2	3	:60	$E
+k	IGdW	C	:74	$V
+l	IGdW	C	:8	$W
+m	IGdW	C	:9	$G
+n	INu}	C	<	COUT	$D
+o	INu}	C	@	SUM1	$@
+p	INu}	C	?	SUM2	$A
+q	INu}	C	>	SUM3	$B
+r	INu}	C	=	SUM4	$C
+s	IGdW	.	:10	#<
+t	IVOQ	.	"H	:133	#8
+u	IVOQ	.	"L	:134	#7
+v	IVOQ	.	"K	:135	#6
+w	IVOQ	.	"J	:136	#5
+x	IVOQ	.	"I	:137	#4
+y	IGdW	.	:139	#O
+z	IGdW	.	:141	#3
+{	IGdW	.	:143	#F
+|	IGdW	.	:144	#E
+}	IGdW	.	:145	#D
+~	IGdW	.	:147	#:
+"!	IGdW	.	:148	#+
+""	IGdW	.	:149	#2
+"#	IGdW	.	:150	#1
+"$	IGdW	.	:151	#0
+"%	IGdW	.	:152	#*
+"&	IGdW	.	:153	#)
+"'	IGdW	.	:154	#/
+"(	IGdW	.	:155	#.
+")	IGdW	.	:156	#(
+"*	IGdW	.	:157	#'
+"+	IGdW	.	:158	#&
+",	IGdW	.	:159	#-
+"-	IGdW	.	:160	#,
+".	IGdW	.	:161	#%
+"/	IGdW	.	:18	#Q
+"0	IGdW	.	:19	#U
+"1	IGdW	.	:24	#R
+"2	IGdW	.	:25	#V
+"3	IGdW	.	:28	#=
+"4	IGdW	.	:3	#T
+"5	IGdW	.	:31	#G
+"6	IGdW	.	:32	#>
+"7	IGdW	.	:34	#L
+"8	IGdW	.	:35	#?
+"9	IGdW	.	:36	#@
+":	IGdW	.	:37	#H
+";	IGdW	.	:42	#A
+"<	IGdW	.	:46	#I
+"=	IGdW	.	:48	#B
+">	IGdW	.	:49	#C
+"?	IGdW	.	:5	#P
+"@	IGdW	.	:50	#M
+"A	IGdW	.	:53	#S
+"B	IGdW	.	:54	#W
+"C	IGdW	.	:59	#N
+"D	V$Iu	.	5	6	7	8	9	:	4	7	8	5	6	:60	#9
+"E	IGdW	.	:74	#J
+"F	IGdW	.	:8	#K
+"G	IGdW	.	:9	#;
+"H	INu}	.	t	COUT	#8
+"I	INu}	.	x	SUM1	#4
+"J	INu}	.	w	SUM2	#5
+"K	INu}	.	v	SUM3	#6
+"L	INu}	.	u	SUM4	#7
