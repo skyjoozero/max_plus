@@ -24,23 +24,16 @@ HIF003
 --
 FILES
 {
-	74283.tdf
+	7447.gdf
 	{
-		74283 [USE_LPM_FOR_AHDL_OPERATORS,DEVICE_FAMILY] [aglobal.inc]
+		7447 [] []
 		{
-			1 [USE_LPM_FOR_AHDL_OPERATORS=OFF,DEVICE_FAMILY=MAX7000] [A1,CIN,A3,B2,A2,B1,B4,A4,B3,COUT,SUM4,SUM3,SUM2,SUM1];
+			1 [] [];
 		}
 	}
-	p74283.gdf
+	week4_20191363.gdf
 	{
-		p74283 [] []
-		{
-			2 [] [];
-		}
-	}
-	adder_4bit.gdf
-	{
-		adder_4bit [] []
+		week4_20191363 [] []
 		{
 			0 [] [];
 		}
@@ -48,15 +41,8 @@ FILES
 }
 TREE
 {
-	adder_4bit::(0,0):(0): adder_4bit.gdf
+	week4_20191363::(0,0):(0): week4_20191363.gdf
 	{
-		74283::(0,0):(1): 74283.tdf
-		{
-			p74283:2:(26,3):(41,sub): p74283.gdf;
-		}
-		74283::(0,0):(14): 74283.tdf
-		{
-			p74283:2:(26,3):(41,sub): p74283.gdf;
-		}
+		7447::(0,0):(1): 7447.gdf;
 	}
 }
