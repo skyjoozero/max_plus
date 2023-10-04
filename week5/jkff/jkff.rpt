@@ -1,8 +1,8 @@
-Project Informationc:\users\user\desktop\max_plus\week4\week4_20191363\week4_20191363.rpt
+Project Information         c:\users\user\desktop\max_plus\week5\jkff\jkff.rpt
 
 MAX+plus II Compiler Report File
 Version 10.2 07/10/2002
-Compiled: 10/04/2023 14:40:11
+Compiled: 10/04/2023 17:24:04
 
 Copyright (C) 1988-2002 Altera Corporation
 Any megafunction design, and related net list (encrypted or decrypted),
@@ -36,26 +36,26 @@ needed under any third party's intellectual property, are provided herein.
 Chip/                     Input   Output   Bidir         Shareable
 POF       Device          Pins    Pins     Pins     LCs  Expanders  % Utilized
 
-week4_20191363
-      EPM7032LC44-6        7        8        0      8       0           25 %
+jkff      EPM7032LC44-6    5        2        0      2       0           6  %
 
-User Pins:                 7        8        0  
+User Pins:                 5        2        0  
 
 
 
-Project Informationc:\users\user\desktop\max_plus\week4\week4_20191363\week4_20191363.rpt
+Project Information         c:\users\user\desktop\max_plus\week5\jkff\jkff.rpt
 
-** FILE HIERARCHY **
+** AUTO GLOBAL SIGNALS **
 
 
 
-|7447:1|
+INFO: Signal 'CLK' chosen for auto global Clock
+INFO: Signal 'Clear' chosen for auto global Clear
 
 
-Device-Specific Information:c:\users\user\desktop\max_plus\week4\week4_20191363\week4_20191363.rpt
-week4_20191363
+Device-Specific Information:c:\users\user\desktop\max_plus\week5\jkff\jkff.rpt
+jkff
 
-***** Logic for device 'week4_20191363' compiled without errors.
+***** Logic for device 'jkff' compiled without errors.
 
 
 
@@ -68,21 +68,21 @@ Device Options:
 
                                                
                                                
-                                               
-                                               
-                                               
-                 R     V  G  G  G  G  G        
-              L  B  I  C  N  N  N  N  N        
-              T  I  3  C  D  D  D  D  D  g  a  
+              P                                
+              r              C                 
+              e              l                 
+              s        V  G  e  G  C  G        
+              e        C  N  a  N  L  N     Q  
+              t  K  J  C  D  r  D  K  D  Q  N  
             -----------------------------------_ 
           /   6  5  4  3  2  1 44 43 42 41 40   | 
-     BIN |  7                                39 | RBO 
-      I0 |  8                                38 | f 
-      I1 |  9                                37 | d 
-     GND | 10                                36 | e 
-      I2 | 11                                35 | VCC 
-RESERVED | 12         EPM7032LC44-6          34 | b 
-RESERVED | 13                                33 | c 
+RESERVED |  7                                39 | RESERVED 
+RESERVED |  8                                38 | RESERVED 
+RESERVED |  9                                37 | RESERVED 
+     GND | 10                                36 | RESERVED 
+RESERVED | 11                                35 | VCC 
+RESERVED | 12         EPM7032LC44-6          34 | RESERVED 
+RESERVED | 13                                33 | RESERVED 
 RESERVED | 14                                32 | RESERVED 
      VCC | 15                                31 | RESERVED 
 RESERVED | 16                                30 | GND 
@@ -106,33 +106,33 @@ RESERVED = Unused I/O pin, which MUST be left unconnected.
 
 
 
-Device-Specific Information:c:\users\user\desktop\max_plus\week4\week4_20191363\week4_20191363.rpt
-week4_20191363
+Device-Specific Information:c:\users\user\desktop\max_plus\week5\jkff\jkff.rpt
+jkff
 
 ** RESOURCE USAGE **
 
                                                 Shareable     External
 Logic Array Block     Logic Cells   I/O Pins    Expanders   Interconnect
 
-A:     LC1 - LC16     0/16(  0%)   7/16( 43%)   0/16(  0%)   0/36(  0%) 
-B:    LC17 - LC32     8/16( 50%)   8/16( 50%)   4/16( 25%)   7/36( 19%) 
+A:     LC1 - LC16     0/16(  0%)   3/16( 18%)   0/16(  0%)   0/36(  0%) 
+B:    LC17 - LC32     2/16( 12%)   2/16( 12%)   1/16(  6%)   5/36( 13%) 
 
 
-Total dedicated input pins used:                 0/4      (  0%)
-Total I/O pins used:                            15/32     ( 46%)
-Total logic cells used:                          8/32     ( 25%)
+Total dedicated input pins used:                 2/4      ( 50%)
+Total I/O pins used:                             5/32     ( 15%)
+Total logic cells used:                          2/32     (  6%)
 Total shareable expanders used:                  0/32     (  0%)
-Total Turbo logic cells used:                    8/32     ( 25%)
-Total shareable expanders not available (n/a):   4/32     ( 12%)
-Average fan-in:                                  6.75
-Total fan-in:                                    54
+Total Turbo logic cells used:                    2/32     (  6%)
+Total shareable expanders not available (n/a):   1/32     (  3%)
+Average fan-in:                                  6.00
+Total fan-in:                                    12
 
-Total input pins required:                       7
-Total output pins required:                      8
+Total input pins required:                       5
+Total output pins required:                      2
 Total bidirectional pins required:               0
-Total logic cells required:                      8
-Total flipflops required:                        0
-Total product terms required:                   32
+Total logic cells required:                      2
+Total flipflops required:                        2
+Total product terms required:                    8
 Total logic cells lending parallel expanders:    0
 Total shareable expanders in database:           0
 
@@ -140,21 +140,19 @@ Synthesized logic cells:                         0/  32   (  0%)
 
 
 
-Device-Specific Information:c:\users\user\desktop\max_plus\week4\week4_20191363\week4_20191363.rpt
-week4_20191363
+Device-Specific Information:c:\users\user\desktop\max_plus\week5\jkff\jkff.rpt
+jkff
 
 ** INPUTS **
 
                                          Shareable
                                          Expanders     Fan-In    Fan-Out
  Pin     LC  LAB  Primitive    Code   Total Shared n/a INP  FBK  OUT  FBK  Name
-   7    (4)  (A)      INPUT               0      0   0    0    0    7    0  BIN
-   8    (5)  (A)      INPUT               0      0   0    0    0    8    0  I0
-   9    (6)  (A)      INPUT               0      0   0    0    0    8    0  I1
-  11    (7)  (A)      INPUT               0      0   0    0    0    8    0  I2
-   4    (1)  (A)      INPUT               0      0   0    0    0    8    0  I3
-   6    (3)  (A)      INPUT               0      0   0    0    0    8    0  LT
-   5    (2)  (A)      INPUT               0      0   0    0    0    7    0  RBI
+   1      -   -       INPUT  G            0      0   0    0    0    1    0  Clear
+  43      -   -       INPUT  G            0      0   0    0    0    0    0  CLK
+   4    (1)  (A)      INPUT               0      0   0    0    0    2    0  J
+   5    (2)  (A)      INPUT               0      0   0    0    0    2    0  K
+   6    (3)  (A)      INPUT               0      0   0    0    0    2    0  Preset
 
 
 Code:
@@ -164,24 +162,23 @@ t = Turbo logic cell
 + = Synchronous flipflop
 ! = NOT gate push-back
 r = Fitter-inserted logic cell
+G = Global Source. Fan-out destinations counted here do not include destinations
+that are driven using global routing resources. Refer to the Auto Global Signals,
+Clock Signals, Clear Signals, Synchronous Load Signals, and Synchronous Clear Signals
+Sections of this Report File for information on which signals' fan-outs are used as
+Clock, Clear, Preset, Output Enable, and synchronous Load signals.
 
 
-Device-Specific Information:c:\users\user\desktop\max_plus\week4\week4_20191363\week4_20191363.rpt
-week4_20191363
+Device-Specific Information:c:\users\user\desktop\max_plus\week5\jkff\jkff.rpt
+jkff
 
 ** OUTPUTS **
 
                                          Shareable
                                          Expanders     Fan-In    Fan-Out
  Pin     LC  LAB  Primitive    Code   Total Shared n/a INP  FBK  OUT  FBK  Name
-  40     18    B     OUTPUT      t        1      0   1    7    0    0    0  a
-  34     23    B     OUTPUT      t        1      0   1    7    0    0    0  b
-  33     24    B     OUTPUT      t        0      0   0    7    0    0    0  c
-  37     21    B     OUTPUT      t        1      0   1    7    0    0    0  d
-  36     22    B     OUTPUT      t        0      0   0    7    0    0    0  e
-  38     20    B     OUTPUT      t        1      0   1    7    0    0    0  f
-  41     17    B     OUTPUT      t        0      0   0    6    0    0    0  g
-  39     19    B     OUTPUT      t        0      0   0    6    0    0    0  RBO
+  41     17    B         FF   +  t        0      0   0    3    1    2    0  Q
+  40     18    B         FF   +  t !      1      0   1    4    1    0    0  QN
 
 
 Code:
@@ -193,110 +190,57 @@ t = Turbo logic cell
 r = Fitter-inserted logic cell
 
 
-Device-Specific Information:c:\users\user\desktop\max_plus\week4\week4_20191363\week4_20191363.rpt
-week4_20191363
+Device-Specific Information:c:\users\user\desktop\max_plus\week5\jkff\jkff.rpt
+jkff
 
 ** LOGIC CELL INTERCONNECTIONS **
 
 Logic Array Block 'B':
 
-                         Logic cells placed in LAB 'B'
-        +--------------- LC18 a
-        | +------------- LC23 b
-        | | +----------- LC24 c
-        | | | +--------- LC21 d
-        | | | | +------- LC22 e
-        | | | | | +----- LC20 f
-        | | | | | | +--- LC17 g
-        | | | | | | | +- LC19 RBO
-        | | | | | | | | 
-        | | | | | | | |   Other LABs fed by signals
-        | | | | | | | |   that feed LAB 'B'
-LC      | | | | | | | | | A B |     Logic cells that feed LAB 'B':
+             Logic cells placed in LAB 'B'
+        +--- LC17 Q
+        | +- LC18 QN
+        | | 
+        | |   Other LABs fed by signals
+        | |   that feed LAB 'B'
+LC      | | | A B |     Logic cells that feed LAB 'B':
+LC17 -> * * | - * | <-- Q
 
 Pin
-7    -> * * * * * * * - | - * | <-- BIN
-8    -> * * * * * * * * | - * | <-- I0
-9    -> * * * * * * * * | - * | <-- I1
-11   -> * * * * * * * * | - * | <-- I2
-4    -> * * * * * * * * | - * | <-- I3
-6    -> * * * * * * * * | - * | <-- LT
-5    -> * * * * * * - * | - * | <-- RBI
+1    -> - * | - * | <-- Clear
+43   -> - - | - - | <-- CLK
+4    -> * * | - * | <-- J
+5    -> * * | - * | <-- K
+6    -> * * | - * | <-- Preset
 
 
 * = The logic cell or pin is an input to the logic cell (or LAB) through the PIA.
 - = The logic cell or pin is not an input to the logic cell (or LAB).
 
 
-Device-Specific Information:c:\users\user\desktop\max_plus\week4\week4_20191363\week4_20191363.rpt
-week4_20191363
+Device-Specific Information:c:\users\user\desktop\max_plus\week5\jkff\jkff.rpt
+jkff
 
 ** EQUATIONS **
 
-BIN      : INPUT;
-I0       : INPUT;
-I1       : INPUT;
-I2       : INPUT;
-I3       : INPUT;
-LT       : INPUT;
-RBI      : INPUT;
+Clear    : INPUT;
+CLK      : INPUT;
+J        : INPUT;
+K        : INPUT;
+Preset   : INPUT;
 
--- Node name is 'a' 
--- Equation name is 'a', location is LC018, type is output.
- a       = LCELL( _EQ001 $ !BIN);
-  _EQ001 =  BIN &  I0 & !I1 & !I2 & !I3 &  LT
-         #  BIN & !I1 & !I2 & !I3 &  LT & !RBI
-         #  BIN &  I1 &  I3 &  LT
-         #  BIN & !I0 &  I2 &  LT;
+-- Node name is 'Q' = ':3' 
+-- Equation name is 'Q', type is output 
+ Q       = TFFE( _EQ001, GLOBAL( CLK), GLOBAL( Clear),  Preset,  VCC);
+  _EQ001 =  K &  Q
+         #  J & !Q;
 
--- Node name is 'b' 
--- Equation name is 'b', location is LC023, type is output.
- b       = LCELL( _EQ002 $ !BIN);
-  _EQ002 =  BIN & !I0 & !I1 & !I2 & !I3 &  LT & !RBI
-         #  BIN & !I0 &  I1 &  I2 &  LT
-         #  BIN &  I0 & !I1 &  I2 &  LT
-         #  BIN &  I1 &  I3 &  LT;
-
--- Node name is 'c' 
--- Equation name is 'c', location is LC024, type is output.
- c       = LCELL( _EQ003 $ !BIN);
-  _EQ003 =  BIN & !I0 & !I2 & !I3 &  LT & !RBI
-         #  BIN & !I0 &  I1 & !I2 &  LT
-         #  BIN &  I2 &  I3 &  LT;
-
--- Node name is 'd' 
--- Equation name is 'd', location is LC021, type is output.
- d       = LCELL( _EQ004 $ !BIN);
-  _EQ004 =  BIN & !I0 & !I1 & !I3 &  LT & !RBI
-         #  BIN &  I0 &  I1 &  I2 &  LT
-         #  BIN & !I0 & !I1 &  I2 &  LT
-         #  BIN &  I0 & !I1 & !I2 &  LT;
-
--- Node name is 'e' 
--- Equation name is 'e', location is LC022, type is output.
- e       = LCELL( _EQ005 $ !BIN);
-  _EQ005 =  BIN & !I1 & !I2 & !I3 &  LT & !RBI
-         #  BIN & !I1 &  I2 &  LT
-         #  BIN &  I0 &  LT;
-
--- Node name is 'f' 
--- Equation name is 'f', location is LC020, type is output.
- f       = LCELL( _EQ006 $ !BIN);
-  _EQ006 =  BIN &  I0 & !I2 & !I3 &  LT
-         #  BIN & !I2 & !I3 &  LT & !RBI
-         #  BIN &  I0 &  I1 &  LT
-         #  BIN &  I1 & !I2 &  LT;
-
--- Node name is 'g' 
--- Equation name is 'g', location is LC017, type is output.
- g       = LCELL( _EQ007 $ !BIN);
-  _EQ007 =  BIN &  I0 &  I1 &  I2 &  LT
-         #  BIN & !I1 & !I2 & !I3 &  LT;
-
--- Node name is 'RBO' 
--- Equation name is 'RBO', location is LC019, type is output.
- RBO     = LCELL( _EQ008 $  VCC);
-  _EQ008 = !I0 & !I1 & !I2 & !I3 &  LT & !RBI;
+-- Node name is 'QN' = '~3~1' 
+-- Equation name is 'QN', location is LC018, type is output.
+QN       = _LC018~NOT;
+_LC018~NOT = DFFE( _EQ002 $ !Q, GLOBAL( CLK),  Preset,  Clear,  VCC);
+  _EQ002 =  K &  Q
+         #  J & !Q;
 
 
 
@@ -306,7 +250,7 @@ RBI      : INPUT;
 
 
 
-Project Informationc:\users\user\desktop\max_plus\week4\week4_20191363\week4_20191363.rpt
+Project Information         c:\users\user\desktop\max_plus\week5\jkff\jkff.rpt
 
 ** COMPILATION SETTINGS & TIMES **
 
@@ -383,8 +327,8 @@ Compilation Times
 
    Compiler Netlist Extractor             00:00:00
    Database Builder                       00:00:00
-   Logic Synthesizer                      00:00:00
-   Partitioner                            00:00:01
+   Logic Synthesizer                      00:00:01
+   Partitioner                            00:00:00
    Fitter                                 00:00:00
    Timing SNF Extractor                   00:00:00
    Assembler                              00:00:00
@@ -395,4 +339,4 @@ Compilation Times
 Memory Allocated
 -----------------
 
-Peak memory allocated during compilation  = 2,975K
+Peak memory allocated during compilation  = 2,858K

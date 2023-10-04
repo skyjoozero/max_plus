@@ -7,64 +7,65 @@ Index Hierarchy Path
 !	&null_hpath&
 .	|7447:1|
 
-The number of name info structs is : 57
+The number of name info structs is : 58
 
 InsOrder BitField SymTableIndex NextSyn SynParent Loc ChainType NextChain ChainParent FanOut DirExp ParExp ShareExp NodeName
 -------- -------- ------------- ------- --------- --- --------- --------- ----------- ------ ------ ------ -------- --------
-"	NLG+	!	1	a	|
-#	NLG+	!	1	b	{
-$	IGdq	!	c	z
-%	NLG+	!	1	d	y
-&	IGdq	!	e	x
-'	NLG+	!	1	f	w
-(	IGdq	!	g	v
-)	Ky&|	!	8	"	#	$	%	&	'	(	/	I0	r
-*	Ky&|	!	8	"	#	$	%	&	'	(	/	I1	q
-+	Ky&|	!	8	"	#	$	%	&	'	(	/	I2	p
-,	Ky&|	!	8	"	#	$	%	&	'	(	/	I3	o
--	Ky&|	!	8	"	#	$	%	&	'	(	/	LT	t
-.	Ky&|	!	7	"	#	$	%	&	'	/	RBI	s
-/	IGdq	!	RBO	u
-0	IGdW	.	:1	"N
-1	IVOQ	.	Z	:13	"D
-2	IGdW	.	:14	"E
-3	IGdW	.	:15	"F
-4	IGdW	.	:2	"O
-5	IGdW	.	:23	"G
-6	IGdW	.	:24	"H
-7	IGdW	.	:25	"I
-8	IGdW	.	:26	"J
-9	IGdW	.	:27	"K
-:	IGdW	.	:28	"L
-;	IGdW	.	:29	"M
-<	IGdW	.	:3	"P
-=	IGdW	.	:30	"W
->	IGdW	.	:31	"X
-?	IGdW	.	:32	"Y
-@	IGdW	.	:33	"Z
-A	IGdW	.	:34	"[
-B	IGdW	.	:35	"\
-C	IGdW	.	:36	"]
-D	IGdW	.	:37	"V
-E	IGdW	.	:38	"^
-F	IGdW	.	:39	"_
-G	IGdW	.	:4	"Q
-H	IGdW	.	:5	"R
-I	IGdW	.	:6	"S
-J	IGdW	.	:7	"T
-K	IGdW	.	:8	"U
-L	IVOQ	.	S	:81	"`
-M	IVOQ	.	T	:82	"a
-N	IVOQ	.	U	:83	"d
-O	IVOQ	.	V	:84	"b
-P	IVOQ	.	W	:85	"e
-Q	IVOQ	.	X	:86	"c
-R	IVOQ	.	Y	:87	"f
-S	INu}	.	L	OA	"`
-T	INu}	.	M	OB	"a
-U	INu}	.	N	OC	"d
-V	INu}	.	O	OD	"b
-W	INu}	.	P	OE	"e
-X	INu}	.	Q	OF	"c
-Y	INu}	.	R	OG	"f
-Z	INu}	.	1	RBON	"D
+"	NLG+	!	1	a	}
+#	NLG+	!	1	b	|
+$	Ky&|	!	7	"	#	%	&	'	(	)	BIN	s
+%	IGdq	!	c	{
+&	NLG+	!	1	d	z
+'	IGdq	!	e	y
+(	NLG+	!	1	f	x
+)	IGdq	!	g	w
+*	Ky&|	!	8	"	#	%	&	'	(	)	0	I0	r
++	Ky&|	!	8	"	#	%	&	'	(	)	0	I1	q
+,	Ky&|	!	8	"	#	%	&	'	(	)	0	I2	p
+-	Ky&|	!	8	"	#	%	&	'	(	)	0	I3	o
+.	Ky&|	!	8	"	#	%	&	'	(	)	0	LT	u
+/	Ky&|	!	7	"	#	%	&	'	(	0	RBI	t
+0	IGdq	!	RBO	v
+1	IGdW	.	:1	"O
+2	IVOQ	.	[	:13	"E
+3	IGdW	.	:14	"F
+4	IGdW	.	:15	"G
+5	IGdW	.	:2	"P
+6	IGdW	.	:23	"H
+7	IGdW	.	:24	"I
+8	IGdW	.	:25	"J
+9	IGdW	.	:26	"K
+:	IGdW	.	:27	"L
+;	IGdW	.	:28	"M
+<	IGdW	.	:29	"N
+=	IGdW	.	:3	"Q
+>	IGdW	.	:30	"X
+?	IGdW	.	:31	"Y
+@	IGdW	.	:32	"Z
+A	IGdW	.	:33	"[
+B	IGdW	.	:34	"\
+C	IGdW	.	:35	"]
+D	IGdW	.	:36	"^
+E	IGdW	.	:37	"W
+F	IGdW	.	:38	"_
+G	IGdW	.	:39	"`
+H	IGdW	.	:4	"R
+I	IGdW	.	:5	"S
+J	IGdW	.	:6	"T
+K	IGdW	.	:7	"U
+L	IGdW	.	:8	"V
+M	IVOQ	.	T	:81	"a
+N	IVOQ	.	U	:82	"b
+O	IVOQ	.	V	:83	"e
+P	IVOQ	.	W	:84	"c
+Q	IVOQ	.	X	:85	"f
+R	IVOQ	.	Y	:86	"d
+S	IVOQ	.	Z	:87	"g
+T	INu}	.	M	OA	"a
+U	INu}	.	N	OB	"b
+V	INu}	.	O	OC	"e
+W	INu}	.	P	OD	"c
+X	INu}	.	Q	OE	"f
+Y	INu}	.	R	OF	"d
+Z	INu}	.	S	OG	"g
+[	INu}	.	2	RBON	"E

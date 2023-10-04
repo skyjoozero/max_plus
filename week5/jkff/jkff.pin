@@ -27,18 +27,18 @@ RESERVED = Unused I/O pin, which MUST be left unconnected.
 
 ----------------------------------------------------------------------------
 
-CHIP "week4_20191363" ASSIGNED TO AN EPM7032LC44-6
-GND                              : 1
+CHIP "jkff" ASSIGNED TO AN EPM7032LC44-6
+Clear                            : 1
 GND                              : 2
 VCC                              : 3
-I3                               : 4
-RBI                              : 5
-LT                               : 6
-BIN                              : 7
-I0                               : 8
-I1                               : 9
+J                                : 4
+K                                : 5
+Preset                           : 6
+RESERVED                         : 7
+RESERVED                         : 8
+RESERVED                         : 9
 GND                              : 10
-I2                               : 11
+RESERVED                         : 11
 RESERVED                         : 12
 RESERVED                         : 13
 RESERVED                         : 14
@@ -60,15 +60,15 @@ RESERVED                         : 29
 GND                              : 30
 RESERVED                         : 31
 RESERVED                         : 32
-c                                : 33
-b                                : 34
+RESERVED                         : 33
+RESERVED                         : 34
 VCC                              : 35
-e                                : 36
-d                                : 37
-f                                : 38
-RBO                              : 39
-a                                : 40
-g                                : 41
+RESERVED                         : 36
+RESERVED                         : 37
+RESERVED                         : 38
+RESERVED                         : 39
+QN                               : 40
+Q                                : 41
 GND                              : 42
-GND                              : 43
+CLK                              : 43
 GND                              : 44
