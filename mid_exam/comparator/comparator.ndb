@@ -1,0 +1,62 @@
+NDB006
+The number of symbol table entries is: 2
+The length of the symbol table is: 32
+
+Index Hierarchy Path
+----- --------------
+!	&null_hpath&
+.	|7485:1|p7485:sub|
+
+The number of name info structs is : 49
+
+InsOrder BitField SymTableIndex NextSyn SynParent Loc ChainType NextChain ChainParent FanOut DirExp ParExp ShareExp NodeName
+-------- -------- ------------- ------- --------- --- --------- --------- ----------- ------ ------ ------ -------- --------
+"	Ky&|	!	3	'	(	M	a0	r
+#	Ky&|	!	3	'	(	L	a1	q
+$	Ky&|	!	3	'	(	K	a2	p
+%	Ky&|	!	3	'	(	J	a3	o
+&	IGdq	!	AEBO	y
+'	NLG+	!	1	AGBO	x
+(	NLG+	!	1	ALBO	w
+)	Ky&|	!	3	'	(	M	b0	v
+*	Ky&|	!	3	'	(	L	b1	u
++	Ky&|	!	3	'	(	K	b2	t
+,	Ky&|	!	3	'	(	J	b3	s
+-	IVOQ	.	P	:10	"|
+.	IVOQ	.	R	:12	"{
+/	IVOQ	.	Q	:13	"z
+0	IGdW	.	:14	"y
+1	IGdW	.	:15	"x
+2	IGdW	.	:16	"w
+3	IGdW	.	:17	"v
+4	IGdW	.	:18	"q
+5	IGdW	.	:19	"p
+6	IGdW	.	:2	#&
+7	IGdW	.	:20	"o
+8	IGdW	.	:21	"n
+9	IGdW	.	:22	"m
+:	IGdW	.	:23	"l
+;	IGdW	.	:24	"k
+<	IGdW	.	:25	"j
+=	IGdW	.	:26	"u
+>	IGdW	.	:27	"t
+?	IGdW	.	:28	"s
+@	IGdW	.	:29	"r
+A	IGdW	.	:3	#%
+B	IGdW	.	:30	"i
+C	IGdW	.	:31	"h
+D	IGdW	.	:4	#$
+E	IGdW	.	:47	#(
+F	IGdW	.	:48	#'
+G	IGdW	.	:5	##
+H	IGdW	.	:6	#"
+I	IGdW	.	:7	#!
+J	Ky'E	.	3	&	'	(	:74	"d
+K	Ky'E	.	3	&	'	(	:75	"e
+L	Ky'E	.	3	&	'	(	:76	"f
+M	Ky'E	.	3	&	'	(	:77	"g
+N	IGdW	.	:8	"~
+O	IGdW	.	:9	"}
+P	INu}	.	-	AEBO	"|
+Q	INu}	.	/	AGBO	"z
+R	INu}	.	.	ALBO	"{
