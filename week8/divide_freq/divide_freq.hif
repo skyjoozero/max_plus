@@ -24,16 +24,16 @@ HIF003
 --
 FILES
 {
-	half_adder.gdf
+	74162.gdf
 	{
-		half_adder [] []
+		74162 [] []
 		{
 			1 [] [];
 		}
 	}
-	full_adder.gdf
+	divide_freq.gdf
 	{
-		full_adder [] []
+		divide_freq [] []
 		{
 			0 [] [];
 		}
@@ -41,9 +41,10 @@ FILES
 }
 TREE
 {
-	full_adder::(0,0):(0): full_adder.gdf
+	divide_freq::(0,0):(0): divide_freq.gdf
 	{
-		half_adder::(0,0):(1): half_adder.gdf;
-		half_adder::(0,0):(2): half_adder.gdf;
+		74162::(0,0):(3): 74162.gdf;
+		74162::(0,0):(2): 74162.gdf;
+		74162::(0,0):(1): 74162.gdf;
 	}
 }

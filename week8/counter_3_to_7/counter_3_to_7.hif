@@ -24,16 +24,16 @@ HIF003
 --
 FILES
 {
-	half_adder.gdf
+	74162.gdf
 	{
-		half_adder [] []
+		74162 [] []
 		{
 			1 [] [];
 		}
 	}
-	full_adder.gdf
+	counter_3_to_7.gdf
 	{
-		full_adder [] []
+		counter_3_to_7 [] []
 		{
 			0 [] [];
 		}
@@ -41,9 +41,8 @@ FILES
 }
 TREE
 {
-	full_adder::(0,0):(0): full_adder.gdf
+	counter_3_to_7::(0,0):(0): counter_3_to_7.gdf
 	{
-		half_adder::(0,0):(1): half_adder.gdf;
-		half_adder::(0,0):(2): half_adder.gdf;
+		74162:1:(0,0):(1): 74162.gdf;
 	}
 }
