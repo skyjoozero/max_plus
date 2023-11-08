@@ -1,0 +1,8 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/user/Desktop/max_plus/week10-quartus/test/test.bdf
+source_file = 1, C:/Users/user/Desktop/max_plus/week10-quartus/test/test.vwf
+source_file = 1, C:/Users/user/Desktop/max_plus/week10-quartus/test/db/test.cbx.xml
+design_name = test
+instance = comp, \in1~I , in1, test, 1
+instance = comp, \in0~I , in0, test, 1
+instance = comp, \and2_out~I , and2_out, test, 1
