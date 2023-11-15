@@ -1,0 +1,10 @@
+|vhdl
+a => an.IN0
+b => an.IN1
+c1 => cn.IN0
+c0 => cn.IN1
+and_out <= an.DB_MAX_OUTPUT_PORT_TYPE
+or_out <= cn.DB_MAX_OUTPUT_PORT_TYPE
+xor_out <= xor_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
