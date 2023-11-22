@@ -1,0 +1,11 @@
+|first
+a => andOut.IN0
+a => orOut.IN0
+a => notOut.DATAIN
+b => andOut.IN1
+b => orOut.IN1
+andOut <= andOut.DB_MAX_OUTPUT_PORT_TYPE
+orOut <= orOut.DB_MAX_OUTPUT_PORT_TYPE
+notOut <= a.DB_MAX_OUTPUT_PORT_TYPE
+
+

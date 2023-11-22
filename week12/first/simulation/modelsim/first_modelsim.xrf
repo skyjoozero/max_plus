@@ -1,0 +1,15 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/user/Desktop/max_plus/week12/first/first.vhd
+source_file = 1, C:/Users/user/Desktop/max_plus/week12/first/db/first.cbx.xml
+source_file = 1, c:/altera/13.0sp1/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, c:/altera/13.0sp1/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, c:/altera/13.0sp1/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, c:/altera/13.0sp1/quartus/libraries/vhdl/ieee/timing_p.vhd
+design_name = first
+instance = comp, \andOut~output\, andOut~output, first, 1
+instance = comp, \orOut~output\, orOut~output, first, 1
+instance = comp, \notOut~output\, notOut~output, first, 1
+instance = comp, \b~input\, b~input, first, 1
+instance = comp, \a~input\, a~input, first, 1
+instance = comp, \andOut~0\, andOut~0, first, 1
+instance = comp, \orOut~0\, orOut~0, first, 1
