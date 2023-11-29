@@ -1,0 +1,24 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity dff_double is
+	port (
+		clr	:	in		std_logic;
+		clk	:	in		std_logic;
+		d1		:	in		std_logic;
+		q1		:	buffer	std_logic;
+		q2		:	out	std_logic);
+end dff_double;
+
+architecture main of dff_double is
+
+begin
+	process(clr, clk, d1)
+	begin
+		if (clr='0') then
+			q1 <= '0'; q2 <= '0';
+		elsif rising_edge(clk) then
+			q1 <= d1; q2 <= q1;
+		end if;
+	end process;
+end main;

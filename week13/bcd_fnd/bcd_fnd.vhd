@@ -1,0 +1,83 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+use ieee.std_logic_unsigned.all;
+use ieee.std_logic_arith.all;
+entity bcd_fnd is
+port( clk : in std_logic;
+	load,clr : in std_logic;
+	d,c,b,a : in std_logic;
+	qd,qc,qb,qa : out std_logic;
+	RCO : out std_logic;
+	FND : out std_logic_vector(6 downto 0)); 
+end bcd_fnd;
+
+architecture main of bcd_fnd is
+	signal TMP : std_logic_vector(3 downto 0);
+	signal Q_out : std_logic_vector(3 downto 0);
+	begin
+	process(load,clr,clk)
+		begin
+		if clr = '0' then
+			tmp <= "0000"; RCO <= '0';
+		elsif rising_edge(clk) then
+			if load ='0' then
+				tmp <= d&c&b&a; RCO <= TMP(3) AND TMP(0);
+					ELSE
+				IF TMP = "1001" Then
+				tmp <= "0000"; 
+				RCO <= '1';
+		else
+		tmp <= tmp + "0001";
+		RCO <= '0';
+		end if;
+		end if;
+		end if;
+		end process;
+		qd <=tmp(3); qc <=tmp(2); qb <=tmp(1); qa <=tmp(0);
+		process(q_out)
+		begin
+		q_out <= tmp(3)&tmp(2)&tmp(1)&tmp(0); 
+		case q_out is
+		--"abcdefg-"
+		when "0000" => FND <= 
+		"1111110"; 
+		when "0001" => FND <= 
+		"0110000"; 
+		when "0010" => FND <= 
+		"1101101"; 
+		when "0011" => FND <= 
+		"1111001"; 
+		when "0100" => FND <= 
+		"0110011"; 
+		when "0101" => FND <= 
+		"1011011"; 
+		when "0110" => FND <= 
+		"1011111"; 
+		when "0111" => FND <= 
+		"1110000"; 
+		when "1000" => FND <= 
+		"1111111"; 
+		when "1001" => FND <= 
+		"1110011"; 
+		-- 
+		when "1010" => FND <= 
+		"1111101"; 
+		-- 
+		when "1011" => FND <= 
+		"0011111"; 
+		-- 
+		when "1100" => FND <= 
+		"0001101"; 
+		-- 
+		when "1101" => FND <= 
+		"0111101"; 
+		-- 
+		when "1110" => FND <= 
+		"1101111"; 
+		-- 
+		when "1111" => FND <= 
+		"1000111"; 
+		when others => null;
+		end case;
+	end process;
+end main;
